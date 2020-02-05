@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>第三章作业</title>
+	</head>
+	<body>
+		<section>
+			<h1>作业3.1.5</h1>
+			<header>
+				<h1>360新闻网</h1>
+				<!--链接备注-->
+				<ul>
+					<li>
+						<a href="index.html">首页</a>
+					</li>
+					<li>
+						<a href="help.html">帮助</a>
+					</li>
+				</ul>
+			</header>
+			<article>
+				<hgroup>
+					<h1>美国航天局发现第二个地球</h1>
+					<p>
+						<small>
+							<time datetime="2016-10-10 T09:11">2016年10月10日 9:11</time>
+							来源：北京日报 我有话说
+						</small>
+					</p>
+				</hgroup>
+				<p>
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2月3日0—24时，31个省（自治区、直辖市）和新疆生产建设兵团报告新增
+					确诊病例3235例（湖北省2345例），新增重症病例492例（湖北省442例），新增死亡病例64例（湖北省64例），新增治愈出
+					院病例157例（湖北省101例），新增疑似病例5072例（湖北省3182例）。
+				</p>
+				<p>
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;截至2月3日24时，国家卫生健康委收到31个省（自治区、直辖市）和新疆
+					生产建设兵团累计报告确诊病例20438例（黑龙江省核减2例），现有重症病例2788例，累计死亡病例425例，累计治愈出院病例
+					632例，现有疑似病例23214例。
+				</p>
+				<section class="comment">
+					<h3>Comment</h3>
+					<article>
+						<p>匿名</p>
+						<p>武汉加油！</p>
+					</article>
+				</section>
+			</article>
+			<footer><small>版权所有：360新闻网</small></footer>
+		</section>
+		<section>
+			<h1>作业3.2.4</h1>
+			<form name="hw">
+				<label for="username">姓名</label>
+				<input type="text" id="username" name="username" required="required"/><br/>
+				<label for="age">年龄</label>
+				<input type="number" id="age" name="age" max="100" min="0" step="1" value="1" required="required"/><br/>
+				<label for="birthday">出生日期</label>
+				<input type="date" id="birthday" name="birthday" required="required"/><br/>
+				<label for="email">Email</label>
+				<input type="email" id="email" name="email" required="required"/><br/>
+				<label for="url">个人主页</label>
+				<input type="url" id="url" name="url" required="required"/><br/>
+				<label for="memo">个人简历</label>
+				<textarea id="memo" name="memo" required="required"></textarea><br/>
+				<input type="submit" />
+			</form>
+		</section>
+		<section>
+			<h1>作业3.3</h1>
+			<form action="index.html" method="post" name="form3">
+				<table border="1">
+					<tr>
+						<td><label for="username1">Name</label></td>
+						<td><input type="text" id="username1" name="username1" required="required" /></td>
+					</tr>
+					<tr>
+						<td><label for="password">Password</label></td>
+						<td><input type="password" name="password" id="password" required="required"/></td>
+					</tr>
+					<tr>
+						<td><label for="password2">Password confirmation</label></td>
+						<td><input type="password" name="password2" id="password2" required="required"/></td>
+					</tr>
+					<tr>
+						<td><label for="age1">Age</label></td>
+						<td><input type="number" id="age1" name="age1" max="100" min="0" step="1" required="required"/></td>
+					</tr>
+					<tr>
+						<td><label for="gender">Gender</label></td>
+						<td><input type="radio" name="gender">Man<input type="radio" name="gender">Woman</td>
+					</tr>
+					<tr>
+						<td><label for="birthday1">Birthday</label></td>
+						<td><input type="date" id="birthday1" name="birthday1" required="required"/><br/></td>
+					</tr>
+					<tr>
+						<td><label for="education">Education</label></td>
+						<td>
+							<select name="education" id="education">
+								<option value="0" selected="selected">--Please selcet--</option>
+								<option value="1">Primary school</option>
+								<option value="2">High school</option>
+								<option value="3">University</option>
+								<option value="4">graduate</option>
+							</select>
+						</td>
+					</tr>
+					<tr>
+						<td><label for="email1">Email</label></td>
+						<td><input type="email" id="email1" name="email1" required="required"/><br/></td>
+					</tr>
+					<tr>
+						<td><label for="url1">Homepage</label></td>
+						<td><input type="url" id="url1" name="url1" required="required"/><br/></td>
+					</tr>
+					<tr>
+						<td><label for="portrait">Portrait</label></td>
+						<td><input type="file" name="pic" id="portrait" /></td>
+					</tr>
+					<tr align="center">
+						<td colspan="2"><input type="submit" class="button" value="Register"/></td>
+					</tr>
+				</table>
+			</form>
+		</section>
+	</body>
+</html>
